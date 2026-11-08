@@ -1,0 +1,39 @@
+{
+  "name": "مجموعة تعلم العربية",
+  "short_name": "عربية",
+  "description": "تطبيق تعلم اللغة العربية مع تحليلات متقدمة",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education", "language"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الأحرف",
+      "url": "/?tab=letters",
+      "description": "تعلم الأحرف العربية"
+    },
+    {
+      "name": "الاختبار",
+      "url": "/?tab=quiz",
+      "description": "اختبر معلوماتك"
+    }
+  ]
+}
